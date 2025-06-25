@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+
+}
+.stopwatch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:2px solid;
+    border-radius: 20px;
+    background-color: white;
+    padding:20px;
+}
+.display{
+    font-size: 4rem;
+    font-family: monospace;
+    font-weight: bold;
+    color:rgba(0, 0, 0, 0.103);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.596);
+    margin-bottom: 20px;
+}
+.controls button{
+    font-size:1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 10px;
+    border:none;
+    border-radius: 10px;
+    cursor:pointer;
+    color:white;
+    transition: backgroundcolor 0.5s ease;
+}
+.start-btn{
+    background-color: rgb(47, 128, 0);
+}
+.start-btn:hover{
+    background-color: rgba(0, 128, 0, 0.884);
+}
+.stop-btn{
+    background-color: rgb(146, 41, 41);
+}
+.stop-btn:hover{
+    background-color: red;
+}
+.reset-btn{
+    background-color: rgba(0, 0, 255, 0.514);
+}
+.reset-btn:hover{
+    background-color: rgb(18, 18, 240);
+}
